@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    /* color: rgb(0, 16, 122); */
+    font-weight: bolder;
+}
+.search{
+      display: flex;
+      align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0px 12px;
+}
+.slider{
+    width: 57vw;
+    margin: 13px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 935px;
+    height: 400px;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 -11px;
+}
+.card-item img{
+    width: 200px;
+    padding: 2vw 2vw;
+     /* box-sizing: content-box; */
+    /* background-color: grey; */
+    /* border: 1px solid black; */
+    margin-left: 36px;
+    padding: 0px 5px;
+}
+.lines{
+    padding: 0 5vw;
+    margin: 0vw 1vw;
+}
+.card h2{
+    padding: 0 5vw;
+}
+.card1{
+    padding: 36px 0;
+}
+.card-item1{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 -11px;
+}
+.card-item1 img{
+    width: 200px;
+    padding: 1vw 60px;
+}
+.lines1{
+    padding: 0 5vw;
+    margin: 0vw 42px;
+}
+.card1 h2{
+    padding: 28px 5vw;
+}
+.card2{
+    padding: 46px 1px;
+}
+.card-item2{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 9px -24px;
+}
+.card-item2 img{
+    width: 200px;
+    padding: 1vw 60px;
+}
+.lines2{
+    padding: 0 5vw;
+    margin: 0vw 42px;
+}
+.card2 h2{
+    padding: 30px 6vw;
+}
+
+.container {
+    min-height: calc(100vh);
+}
+
+footer {
+    height: 12vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
